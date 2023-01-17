@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: should upadate the search category\",\"level\":\"info\"}}",
+  "args": []
+}

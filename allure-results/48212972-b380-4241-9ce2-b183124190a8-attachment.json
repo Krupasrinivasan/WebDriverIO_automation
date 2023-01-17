@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: should search for a product and verify the search text value\",\"level\":\"info\"}}",
+  "args": []
+}

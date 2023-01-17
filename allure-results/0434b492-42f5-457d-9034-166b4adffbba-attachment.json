@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: should direct to new page and verify the title\",\"level\":\"info\"}}",
+  "args": []
+}
