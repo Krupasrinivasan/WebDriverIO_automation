@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1711305730661' stop='1711305735241'>
+    <name>Click upload button annd upload files</name>
+    <title>Click upload button annd upload files</title>
+    <test-cases>
+        <test-case start='1711305730661' status='broken' stop='1711305735240'>
+            <name>testcase for upload file</name>
+            <title>testcase for upload file</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-123.0.6312.59'/>
+            </parameters>
+            <steps>
+                <step start='1711305730662' status='passed' stop='1711305735196'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1711305730662' status='passed' stop='1711305730786'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='e3f464c0-d1c5-4352-93fe-964e0cbfc269-attachment.json' type='application/json' size='56'/>
+                                <attachment title='Response' source='015d7879-82a1-493a-aedf-b09480b11c4f-attachment.json' type='application/json' size='58'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1711305735199' status='passed' stop='1711305735216'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='67f6edf6-d01f-46bc-8ff7-fb6937b3e632-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='f79b2bf2-827c-4b4a-923d-6850d5e7c017-attachment.json' type='application/json' size='120'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1711305735218' status='passed' stop='1711305735237'>
+                    <name>POST /session/:sessionId/element/f.DB0BE620F9FC44586A1E47DE58DFABDE.d.6C7FC4144B468A4E7DAF82182DB5E610.e.5/clear</name>
+                    <title>POST /session/:sessionId/element/f.DB0BE620F9FC44586A1E47DE58DFABDE.d.6C7FC4144B468A4E7DAF82182DB5E610.e.5/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1711305735240' status='broken' stop='1711305735240'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The setValue/addValue command only take string or number values. If you like to use special characters, use the "keys" command.</message>
+                <stack-trace>Error: The setValue/addValue command only take string or number values. If you like to use special characters, use the "keys" command.
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (/Users/krupa.srinivasan/Projects/WebdriverIO/test/specs/upload.js:15:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

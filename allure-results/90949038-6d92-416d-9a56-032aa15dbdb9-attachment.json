@@ -1,0 +1,11 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";return function(o){var r=(void 0===o?[]:o)[0];return r?{x:r.scrollLeft,y:r.scrollTop}:{x:window.scrollX||window.pageXOffset,y:window.scrollY||window.pageYOffset}}}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    [
+      {
+        "element-6066-11e4-a52e-4f735466cecf": "9af5a318-64a2-4d36-af49-f3fed7bf11ce",
+        "ELEMENT": "9af5a318-64a2-4d36-af49-f3fed7bf11ce"
+      }
+    ]
+  ]
+}

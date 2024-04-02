@@ -1,0 +1,15 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";var t=function(t){var r=void 0===t?[]:t,o=r[0],e=r[1],l=Object.keys(e).sort(),n=l.reduce((function(t,r){return t[r]={value:o.style.getPropertyValue(r),important:Boolean(o.style.getPropertyPriority(r))},t}),{});return l.forEach((function(t){o.style.setProperty(t,\"string\"!=typeof e[t]&&e[t]?e[t].value:e[t],e[t]&&e[t].important?\"important\":\"\")})),n};return function(r){var o=void 0===r?[]:r,e=o[0],l=o[1];e=e||document.documentElement;var n=t([e,{\"scroll-behavior\":{value:\"auto\",important:!0}}]);return e.scrollTo?e.scrollTo(l.x,l.y):(e.scrollLeft=l.x,e.scrollTop=l.y),t([e,n]),{x:e.scrollLeft,y:e.scrollTop}}}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    [
+      {
+        "element-6066-11e4-a52e-4f735466cecf": "c8211e92-dc28-40b7-a75b-52b4c9f15e96",
+        "ELEMENT": "c8211e92-dc28-40b7-a75b-52b4c9f15e96"
+      },
+      {
+        "x": 0,
+        "y": 0
+      }
+    ]
+  ]
+}

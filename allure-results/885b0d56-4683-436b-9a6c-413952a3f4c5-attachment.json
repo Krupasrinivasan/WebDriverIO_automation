@@ -1,0 +1,15 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";return function(r){var t=void 0===r?[]:r,e=t[0],n=t[1];return(void 0===n?[]:n).reduce((function(r,t){return r[t]={value:e.style.getPropertyValue(t),important:Boolean(e.style.getPropertyPriority(t))},r}),{})}}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    [
+      {
+        "element-6066-11e4-a52e-4f735466cecf": "26049729-29a0-40d8-a1e8-d4c68a4b472b",
+        "ELEMENT": "26049729-29a0-40d8-a1e8-d4c68a4b472b"
+      },
+      [
+        "transform",
+        "-webkit-transform"
+      ]
+    ]
+  ]
+}

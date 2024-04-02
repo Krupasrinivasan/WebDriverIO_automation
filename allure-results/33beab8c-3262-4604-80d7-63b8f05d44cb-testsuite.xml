@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1711338948965' stop='1711338953041'>
+    <name>Click upload button annd upload files</name>
+    <title>Click upload button annd upload files</title>
+    <test-cases>
+        <test-case start='1711338948965' status='broken' stop='1711338953040'>
+            <name>Hidden Upload file button</name>
+            <title>Hidden Upload file button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-123.0.6312.59'/>
+            </parameters>
+            <steps>
+                <step start='1711338948966' status='passed' stop='1711338953037'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1711338948966' status='passed' stop='1711338949089'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='df089aef-e131-4a30-8326-851c428919b2-attachment.json' type='application/json' size='54'/>
+                                <attachment title='Response' source='7d5975ce-1a97-45a1-a04a-a9b642df3f9a-attachment.json' type='application/json' size='58'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1711338953040' status='broken' stop='1711338953040'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot access 'remoteFile' before initialization</message>
+                <stack-trace>ReferenceError: Cannot access 'remoteFile' before initialization
+                    at Context.&lt;anonymous> (/Users/krupa.srinivasan/Projects/WebdriverIO/test/specs/upload.js:31:53)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
