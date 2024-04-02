@@ -1,7 +1,7 @@
 export const config = {
     //BrowserStack Config
-    // user: process.env.BROWSERSTACK_USERNAME,
-    // key: process.env.BROWSERSTACK_ACCESS_KEY,
+    user: process.env.BROWSERSTACK_USERNAME,
+    key: process.env.BROWSERSTACK_ACCESS_KEY,
     
     //
     // ====================
@@ -27,7 +27,7 @@ export const config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/contact.js'
+        './test/specs/**/search.js'
         // ToDo: define location for spec files here
     ],
     // Patterns to exclude.
@@ -69,13 +69,11 @@ export const config = {
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
-    }
-    //,{
-    //     maxInstances: 5,
-    //     browserName: 'firefox',
-    //     acceptInsecureCerts: true
-    // }
-],
+    },{
+        maxInstances: 5,
+        browserName: 'firefox',
+        acceptInsecureCerts: true
+    }],
     //
     // ===================
     // Test Configurations
@@ -83,7 +81,7 @@ export const config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'error',
+    logLevel: 'warn',
     //
     // Set specific log levels per logger
     // loggers:
@@ -138,12 +136,12 @@ export const config = {
     //         outputDir: './logs'
     //     }
     // ]],
-    // services: [
-    //     ['browserstack', {
-    //         browserstackLocal: true
-    //     }]
-    // ],
-    services: ['chromedriver'],
+    services: [
+        ['browserstack', {
+            browserstackLocal: true
+        }]
+    ],
+    
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: https://webdriver.io/docs/frameworks

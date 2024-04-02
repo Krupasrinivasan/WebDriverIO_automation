@@ -1,6 +1,0 @@
-{
-  "script": "return (function(arg){\nvar s=function(){\"use strict\";return function(){var e=0,t=0;return window.innerHeight?t=window.innerHeight:document.documentElement&&document.documentElement.clientHeight?t=document.documentElement.clientHeight:document.body&&document.body.clientHeight&&(t=document.body.clientHeight),window.innerWidth?e=window.innerWidth:document.documentElement&&document.documentElement.clientWidth?e=document.documentElement.clientWidth:document.body&&document.body.clientWidth&&(e=document.body.clientWidth),{width:e,height:t}}}();\nreturn s(arg)\n}).apply(null, arguments)",
-  "args": [
-    null
-  ]
-}

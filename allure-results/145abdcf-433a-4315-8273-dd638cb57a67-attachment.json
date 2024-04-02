@@ -1,6 +1,0 @@
-{
-  "script": "return (function(arg){\nvar s=function(){\"use strict\";return function(){var t=\"HTML\",e=document.scrollingElement;return e&&(t=e.tagName),t.toLowerCase()}}();\nreturn s(arg)\n}).apply(null, arguments)",
-  "args": [
-    null
-  ]
-}

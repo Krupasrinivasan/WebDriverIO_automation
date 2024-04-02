@@ -1,6 +1,0 @@
-{
-  "script": "return (function(arg){\nvar s=function(){\"use strict\";var t=function(t){var n=(void 0===t?[]:t)[0],e=\"\",r=n.ownerDocument;if(!r)return e;for(var o=n;o!==r;){var a=Array.prototype.filter.call(o.parentNode.childNodes,(function(t){return t.tagName===o.tagName})).indexOf(o);e=\"/\"+o.tagName+\"[\"+(a+1)+\"]\"+e,o=o.parentNode}return e};return function(){var n,e,r;try{n=window.top.document===window.document||\"root-context\"===window.document[\"applitools-marker\"]}catch(t){n=!1}try{e=!window.parent.document===window.document}catch(t){e=!0}if(!e)try{r=t([window.frameElement])}catch(t){r=null}return[document.documentElement,r,n,e]}}();\nreturn s(arg)\n}).apply(null, arguments)",
-  "args": [
-    null
-  ]
-}

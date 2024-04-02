@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//*[@id=\"recent-posts-3\"]/ul/li"
-}
