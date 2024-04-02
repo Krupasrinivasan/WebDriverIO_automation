@@ -1,0 +1,21 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";return function(t){var r=void 0===t?[]:t,e=r[0],o=r[1],n=Object.keys(o).sort(),i=n.reduce((function(t,r){return t[r]={value:e.style.getPropertyValue(r),important:Boolean(e.style.getPropertyPriority(r))},t}),{});return n.forEach((function(t){e.style.setProperty(t,\"string\"!=typeof o[t]&&o[t]?o[t].value:o[t],o[t]&&o[t].important?\"important\":\"\")})),i}}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    [
+      {
+        "element-6066-11e4-a52e-4f735466cecf": "9af5a318-64a2-4d36-af49-f3fed7bf11ce",
+        "ELEMENT": "9af5a318-64a2-4d36-af49-f3fed7bf11ce"
+      },
+      {
+        "-webkit-transform": {
+          "important": false,
+          "value": ""
+        },
+        "transform": {
+          "important": false,
+          "value": ""
+        }
+      }
+    ]
+  ]
+}

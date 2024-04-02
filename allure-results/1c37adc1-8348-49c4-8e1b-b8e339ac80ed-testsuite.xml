@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1711306286627' stop='1711306291054'>
+    <name>Click upload button annd upload files</name>
+    <title>Click upload button annd upload files</title>
+    <test-cases>
+        <test-case start='1711306286628' status='broken' stop='1711306291053'>
+            <name>testcase for upload file</name>
+            <title>testcase for upload file</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-123.0.6312.59'/>
+            </parameters>
+            <steps>
+                <step start='1711306286629' status='passed' stop='1711306290985'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1711306286630' status='passed' stop='1711306286758'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='d59ecd29-f919-4205-8b6d-1dca5b13996b-attachment.json' type='application/json' size='56'/>
+                                <attachment title='Response' source='04c3e66d-3b18-4c55-9f08-f99c040223b6-attachment.json' type='application/json' size='58'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1711306290998' status='passed' stop='1711306291006'>
+                    <name>POST /session/:sessionId/file</name>
+                    <title>POST /session/:sessionId/file</title>
+                    <attachments>
+                        <attachment title='Request' source='bf6d65fd-29a3-40d7-80bc-4db622b35719-attachment.json' type='application/json' size='198196'/>
+                        <attachment title='Response' source='59b74a2a-d1f7-4955-b195-8210c5cb2a51-attachment.json' type='application/json' size='102'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1711306291006' status='passed' stop='1711306291015'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='afd15c83-ed2a-4051-a6f0-892e4f208413-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='3a65db0c-1c2d-428c-9b3a-92a262f3700e-attachment.json' type='application/json' size='120'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1711306291017' status='passed' stop='1711306291036'>
+                    <name>POST /session/:sessionId/element/f.8032F6B6883A5983967377060A080AA2.d.677AC4048EDD26E45562B24BC3CAE4EE.e.4/clear</name>
+                    <title>POST /session/:sessionId/element/f.8032F6B6883A5983967377060A080AA2.d.677AC4048EDD26E45562B24BC3CAE4EE.e.4/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1711306291036' status='passed' stop='1711306291051'>
+                    <name>POST /session/:sessionId/element/f.8032F6B6883A5983967377060A080AA2.d.677AC4048EDD26E45562B24BC3CAE4EE.e.4/value</name>
+                    <title>POST /session/:sessionId/element/f.8032F6B6883A5983967377060A080AA2.d.677AC4048EDD26E45562B24BC3CAE4EE.e.4/value</title>
+                    <attachments>
+                        <attachment title='Request' source='dbf45b2c-da8d-4583-b183-0bd768ef174b-attachment.json' type='application/json' size='116'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1711306291053' status='broken' stop='1711306291053'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Pause is not defined</message>
+                <stack-trace>ReferenceError: Pause is not defined
+                    at Context.&lt;anonymous> (/Users/krupa.srinivasan/Projects/WebdriverIO/test/specs/upload.js:16:9)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

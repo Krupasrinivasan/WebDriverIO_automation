@@ -1,0 +1,8 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";return function(t){var n=(void 0===t?[]:t)[0]||document.activeElement;return n&&n.blur(),n}}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    [
+      null
+    ]
+  ]
+}
