@@ -19,7 +19,6 @@ describe('Click upload button annd upload files', ()=>{
         //assertion
         const succesMessage = await (await $('//*[@id="content"]/div/h3')).getText();
         await expect(succesMessage).toEqual('File Uploaded!');
-        
     
     });
 
