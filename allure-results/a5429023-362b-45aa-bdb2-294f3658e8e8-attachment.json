@@ -1,0 +1,10 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";return function(n){var r=(void 0===n?[]:n)[0];r&&r.focus()}}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    [
+      {
+        "element-6066-11e4-a52e-4f735466cecf": "73b2c9db-e151-4c6e-b779-2d2edb86597c"
+      }
+    ]
+  ]
+}

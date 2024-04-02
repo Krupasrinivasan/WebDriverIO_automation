@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1710782623451' stop='1710782646230'>
+    <name>click blog button and assert the message</name>
+    <title>click blog button and assert the message</title>
+    <test-cases>
+        <test-case start='1710782623451' status='failed' stop='1710782646228'>
+            <name>open url and click block button</name>
+            <title>open url and click block button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-122.0.6261.129'/>
+            </parameters>
+            <steps>
+                <step start='1710782623452' status='passed' stop='1710782640031'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1710782623452' status='passed' stop='1710782623570'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='26b41114-0308-48f8-82ec-10767d319ae8-attachment.json' type='application/json' size='49'/>
+                                <attachment title='Response' source='604a061c-6d32-4f3a-8c76-279e5fbbc314-attachment.json' type='application/json' size='58'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1710782640033' status='passed' stop='1710782640053'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fe555453-b68d-46be-859c-10ee8007671e-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='7529f316-be48-4bed-b51a-b8feae3a9bb1-attachment.json' type='application/json' size='120'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1710782640057' status='passed' stop='1710782646201'>
+                    <name>POST /session/:sessionId/element/f.D3B30C67265CE07E9DD7E641D9A6C204.d.7F98631F3840E85A3C06594F265219CF.e.8/click</name>
+                    <title>POST /session/:sessionId/element/f.D3B30C67265CE07E9DD7E641D9A6C204.d.7F98631F3840E85A3C06594F265219CF.e.8/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1710782646202' status='passed' stop='1710782646218'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='4f26de4a-759e-435e-a0b0-d31676caec0a-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='d9c9808f-d3fd-479b-9b09-901a2f466716-attachment.json' type='application/json' size='647'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1710782646227' status='failed' stop='1710782646228'>
+                    <name>GET /session/:sessionId/element/f.D3B30C67265CE07E9DD7E641D9A6C204.d.2324DDB52D3F46FBDBE76C4BCAA25349.e.38/text</name>
+                    <title>GET /session/:sessionId/element/f.D3B30C67265CE07E9DD7E641D9A6C204.d.2324DDB52D3F46FBDBE76C4BCAA25349.e.38/text</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1710782646227' status='failed' stop='1710782646228'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toBeGreaterThan(expected)
+                
+                Matcher error: received value must be a number or bigint
+                
+                Received has value: undefined</message>
+                <stack-trace>Error: expect(received).toBeGreaterThan(expected)
+                
+                Matcher error: received value must be a number or bigint
+                
+                Received has value: undefined
+                    at Context.&lt;anonymous> (/Users/krupa.srinivasan/Projects/WebdriverIO/test/specs/blog.js:18:53)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

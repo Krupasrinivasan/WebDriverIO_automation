@@ -1,0 +1,6 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";var r=\"__EYES__APPLITOOLS__\";return window[r]=window[r]||{},function(){try{if(window[r].browserInfo){var o=window[r].browserInfo;return\"WIP\"!==o.status&&delete window[r].browserInfo,JSON.stringify(o)}var n={userAgent:window.navigator.userAgent,pixelRatio:window.devicePixelRatio,viewportScale:window.visualViewport&&window.visualViewport.scale};return window.navigator.userAgentData?(window[r].browserInfo={status:\"WIP\"},window.navigator.userAgentData.getHighEntropyValues([\"brands\",\"platform\",\"platformVersion\",\"model\"]).then((function(o){n.userAgentData=o,window[r].browserInfo={status:\"SUCCESS\",value:n}})).catch((function(o){window[r].browserInfo={status:\"ERROR\",error:o.message}}))):window[r].browserInfo={status:\"SUCCESS\",value:n},JSON.stringify(window[r].browserInfo)}catch(o){return window[r].browserInfo={status:\"ERROR\",error:o.message},JSON.stringify(window[r].browserInfo)}}}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    null
+  ]
+}
