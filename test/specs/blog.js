@@ -1,16 +1,17 @@
+import blogPage from '../pages/blogPage';
+
 describe('click blog button and assert the message', () => {
 
     it('open url and click block button', async() => {
 
         // open url
-        await browser.url('https://practice.sdetunicorns.com/');
+        await blogPage.open();
 
         //click contact button
-        const blogButton = await $("//*[@id='menu-item-490']");
-        await blogButton.click();
+        await blogPage.blogButton.click();
 
         //get all posts
-        const posts = await $$('//*[@id="recent-posts-3"]/ul/li');
+        const posts = await blogPage.allPosts;
         await expect(posts.length).toEqual(5);
 
         var string = "";
